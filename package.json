@@ -1,0 +1,31 @@
+{
+   "name": "mbr-theme",
+   "displayName": "MBR-Theme",
+   "description": "",
+   "version": "0.0.1",
+   "engines": {
+      "vscode": "^1.79.0"
+   },
+   "categories": [
+      "Themes"
+   ],
+   "contributes": {
+      "themes": [
+         {
+            "label": "MBR",
+            "uiTheme": "vs-dark",
+            "path": "./themes/MBR-color-theme.json"
+         }
+      ]
+   },
+   "icon": "icons/LogoTLTMBS.png",
+   "author": {
+      "name": "Marcos Bruno Ravines",
+      "email": "Ravines.Dev@gmail.com"
+   },
+   "repository": {
+      "url": "https://github.com/MBBrunito/MBR-Theme-VSCode.git",
+      "type": "git"
+   },
+   "publisher": "Tecno Las Tipas"
+}
